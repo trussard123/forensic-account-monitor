@@ -21,12 +21,9 @@ Every alert is anchored to a machine-generated, cryptographically timestamped lo
 
 ## Background
 
-This tool was developed and deployed by plaintiff Thomas D. Kraemer after discovering an empty ltk.plist used to keep autounlock open resulting in the discovery of a DMM with no profile running in the background of his device and subsiqunitly finding it was used for violent crowdsoucing tactics. Over the 40+-day monitoring window, it captured over 1,700 distinct MAC addresses authenticating as owner of Plaintiff's Apple ID account under a single cloned IDS token (BBzlfMIo), deployed by an unauthorized Declarative Device Management (DDM) organizational account.
+This tool was developed and deployed by Thomas D. Kraemer after discovering an empty ltk.plist —  a system file that had been manipulated to keep Apple's Auto Unlock feature open — which led to the identification of a DDM running in the background of his device with no visible profile. Further investigation revealed the DDM had been used to crowdsource unauthorized access to his Apple ID across a violent criminal network. Over a 40+-day monitoring window, the tool captured over 1,700 distinct MAC addresses authenticating as owner of his Apple ID account under a single cloned IDS token (BBzlfMIo), deployed by an unauthorized Declarative Device Management organizational account.
 
 The output of this tool — the `LIVE_STREAM.log` file — constitutes Exhibit E and the primary forensic record in that action.
-
-This tool is made available so that any user, researcher, or judicial officer can independently verify the monitoring methodology and reproduce the results on their own hardware.
-
 ---
 
 ## System Requirements
@@ -141,16 +138,10 @@ This tool is released for forensic research, personal device security monitoring
 
 ---
 
-## Case Reference
-
-**Kraemer v. John Does 1–1,630**
-
-United States District Court
-Southern District of New York
 
 The complete forensic record, complaint, and supporting exhibits are available through the PACER federal court records system.
 
 ---
 
-*Thomas D. Kraemer | Pro Se*
+*Thomas D. Kraemer*
 *kraemer.tom@gmail.com*
