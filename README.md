@@ -21,7 +21,7 @@ Every alert is anchored to a machine-generated, cryptographically timestamped lo
 
 ## Background
 
-This tool was developed and deployed by Thomas D. Kraemer after discovering an empty ltk.plist —  a system file that had been nefariously manipulated to keep Apple's Auto Unlock feature open — which led to the identification of a DDM running in the background of his device with no visible profile. Further investigation revealed the DDM had been used to crowdsource unauthorized access to his Apple ID. Over a 40+-day monitoring window, the tool captured over 1,700 distinct MAC addresses authenticating as owner of his Apple ID account under a single cloned IDS token (BBzlfMIo), deployed by an unauthorized Declarative Device Management organizational account.
+This tool was developed by Thomas D. Kraemer after discovering an empty ltk.plist —  a system file that had been nefariously manipulated to keep Apple's Auto Unlock feature open — which led to the identification of a DDM running in the background of his device with no visible profile. Further investigation revealed the DDM had been used to crowdsource unauthorized access to his Apple ID. Over a 40+-day monitoring window, the tool captured over 1,700 distinct MAC addresses authenticating as owner of his Apple ID account under a single cloned IDS token (BBzlfMIo), deployed by an unauthorized Declarative Device Management organizational account.
 
 The output of this tool — the `LIVE_STREAM.log` file — constitutes Exhibit E and the primary forensic record in that action.
 ---
