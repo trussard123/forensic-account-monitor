@@ -1,7 +1,5 @@
 # Forensic Monitor
 ### Real-Time Apple Account Surveillance Detection Tool
-**Kraemer v. John Does 1–1,630 | **
-*United States District Court, Southern District of New York*
 
 ---
 
@@ -9,7 +7,7 @@
 
 Forensic Monitor is a macOS command-line tool that detects unauthorized devices authenticating as the owner of your Apple ID account in real time.
 
-It works by reading Apple's native `rapportd` and `bluetoothd` system daemons — the same logs that form the evidentiary basis of *Kraemer v. John Does 1–1,630* — and alerts you via push notification when a foreign device:
+It works by reading Apple's native `rapportd` and `bluetoothd` system daemons and alerts you via push notification when a foreign device:
 
 - Authenticates as owner of your Apple account via PairVerify cryptographic handshake
 - Enters DirectLink range (~33 feet) using a cloned IDS credential
@@ -23,7 +21,7 @@ Every alert is anchored to a machine-generated, cryptographically timestamped lo
 
 ## Background
 
-This tool was developed and deployed by plaintiff Thomas D. Kraemer during the investigation underlying *Kraemer v. John Does 1–1,630*, filed in the Southern District of New York. Over a 36-day monitoring window (03/27/2026–05/02/2026), it captured 1,630 distinct MAC addresses authenticating as owner of Plaintiff's Apple ID account under a single cloned IDS token (BBzlfMIo), deployed by an unauthorized Declarative Device Management (DDM) organizational account.
+This tool was developed and deployed by plaintiff Thomas D. Kraemer after discovering an empty ltk.plist used to keep autounlock open resulting in the discovery of a DMM with no profile running in the background of his device and subsiqunitly finding it was used for violent crowdsoucing tactics. Over the 40+-day monitoring window, it captured over 1,700 distinct MAC addresses authenticating as owner of Plaintiff's Apple ID account under a single cloned IDS token (BBzlfMIo), deployed by an unauthorized Declarative Device Management (DDM) organizational account.
 
 The output of this tool — the `LIVE_STREAM.log` file — constitutes Exhibit E and the primary forensic record in that action.
 
