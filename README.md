@@ -138,10 +138,5 @@ This tool is released for forensic research, personal device security monitoring
 
 ---
 
-
-The complete forensic record, complaint, and supporting exhibits are available through the PACER federal court records system.
-
----
-
 *Thomas D. Kraemer*
 *kraemer.tom@gmail.com*
