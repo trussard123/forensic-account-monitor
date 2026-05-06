@@ -134,7 +134,7 @@ Proximity alone cannot produce this result. The PairVerify handshake requires po
 
 This tool monitors only the operator's own Apple devices and Apple ID account. It reads only the system logs that macOS generates natively on the operator's own hardware. It does not access, intercept, or monitor any external network, third-party device, or communication stream.
 
-This tool is released for forensic research, personal device security monitoring, and judicial verification purposes.
+This tool is released for forensic research, personal device security monitoring.
 
 ---
 
