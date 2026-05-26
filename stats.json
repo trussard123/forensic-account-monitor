@@ -1,6 +1,7 @@
 {
   "devices": 2793,
   "days": 60,
-  "events": 92221,
-  "updated": "2026-05-26T22:54:33Z"
+  "events": 92225,
+  "latest_mac": "FF:F8:DD:D2:A1:AF",
+  "updated": "2026-05-26T22:56:29Z"
 }
