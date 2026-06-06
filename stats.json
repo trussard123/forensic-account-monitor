@@ -1,1 +1,7 @@
-{"devices":3306,"days":71,"events":99396,"latest_mac":"CB:DE:EC:74:6C:E9","updated":"2026-06-06T22:00:09Z"}
+{
+  "devices": 3308,
+  "days": 71,
+  "events": 99422,
+  "latest_mac": "49:19:F4:3B:FA:F0",
+  "updated": "2026-06-06T22:07:48Z"
+}
